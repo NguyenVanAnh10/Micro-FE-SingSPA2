@@ -12,6 +12,6 @@ module.exports = (webpackConfigEnv, argv) => {
 
   return merge(defaultConfig, {
     // modify the webpack config however you'd like to by adding to this object
-    externals: ["@euroland/mf1"],
+    externals: ["@euroland/mf1", "@euroland/shadcn-ui-styleguide"],
   });
 };

@@ -38,5 +38,4 @@ declare module "*.svg" {
   export default src;
 }
 
-declare module "@euroland/shadcn-ui-styleguide";
 declare module "@euroland/mf1";
